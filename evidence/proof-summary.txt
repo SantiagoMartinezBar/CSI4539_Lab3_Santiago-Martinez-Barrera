@@ -1,0 +1,41 @@
+=========================
+Summary of SPARK analysis
+=========================
+
+----------------------------------------------------------------------------------
+SPARK Analysis results        Total       Flow      Provers   Justified   Unproved
+----------------------------------------------------------------------------------
+Data Dependencies                 2          2            .           .          .
+Flow Dependencies                 2          2            .           .          .
+Initialization                    2          2            .           .          .
+Non-Aliasing                      .          .            .           .          .
+Run-time Checks                  13          .    13 (CVC5)           .          .
+Assertions                        .          .            .           .          .
+Functional Contracts              3          .     3 (CVC5)           .          .
+LSP Verification                  .          .            .           .          .
+Termination                       2          2            .           .          .
+Concurrency                       .          .            .           .          .
+----------------------------------------------------------------------------------
+Total                            24    8 (33%)     16 (67%)           .          .
+
+
+max steps used for successful proof: 1
+
+============================
+Most difficult proved checks
+============================
+
+No check found with max time greater than 1 second
+
+========================
+Detailed analysis report
+========================
+
+Analyzed 1 unit
+in unit input_validator, 6 subprograms and packages out of 6 analyzed
+  Input_Validator at input_validator.ads:1 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
+  Input_Validator.Allowed_Characterpredicate at input_validator.ads:9 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
+  Input_Validator.Copy_Valid at input_validator.ads:22 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (11 checks)
+  Input_Validator.Is_Allowed at input_validator.ads:6 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
+  Input_Validator.Meets_Policy at input_validator.ads:18 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
+  Input_Validator.Validate at input_validator.ads:32 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (5 checks)

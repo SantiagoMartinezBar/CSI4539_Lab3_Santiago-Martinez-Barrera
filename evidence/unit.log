@@ -1,0 +1,4 @@
+$ bin/test_validator
+PASS: 102 lengths, 256 byte values, empty and shifted-index strings
+
+EXIT_STATUS=0

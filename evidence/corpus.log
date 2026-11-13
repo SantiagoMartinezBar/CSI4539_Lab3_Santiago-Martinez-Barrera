@@ -1,0 +1,4 @@
+$ python3 tests/run_cases.py
+PASS: 16 corpus cases and missing-file safe failure
+
+EXIT_STATUS=0

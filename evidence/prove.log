@@ -1,0 +1,76 @@
+$ gnatprove -P validator.gpr -u input_validator.adb --mode=prove --level=2 --report=all --checks-as-errors=on --warnings=error
+Phase 1 of 3: generation of data representation information ...
+Phase 2 of 3: generation of Global contracts ...
+Phase 3 of 3: flow analysis and proof ...
+ info: range check proved
+--> input_validator.adb:4:51
+
+ info: range check proved
+--> input_validator.adb:6:13
+
+ info: index check proved
+--> input_validator.adb:6:20
+
+ info: index check proved
+--> input_validator.adb:6:31
+
+ info: length check proved
+--> input_validator.adb:6:40
+
+ info: length check proved
+--> input_validator.adb:6:43
+
+ info: precondition proved
+--> input_validator.adb:12:10
+
+ info: implicit aspect Always_Terminates on "Is_Allowed" has been proved, subprogram will terminate
+--> input_validator.ads:6:13
+
+ info: implicit aspect Always_Terminates on "Meets_Policy" has been proved, subprogram will terminate
+--> input_validator.ads:18:13
+
+ info: initialization of "Result" proved
+--> input_validator.ads:22:42
+
+ info: data dependencies proved
+--> input_validator.ads:23:11
+
+ info: flow dependencies proved
+--> input_validator.ads:24:11
+
+ info: postcondition proved
+--> input_validator.ads:26:19
+
+ info: range check proved
+--> input_validator.ads:27:43
+
+ info: range check proved
+--> input_validator.ads:28:28
+
+ info: index check proved
+--> input_validator.ads:30:50
+
+ info: initialization of "Result" proved
+--> input_validator.ads:32:40
+
+ info: data dependencies proved
+--> input_validator.ads:33:11
+
+ info: flow dependencies proved
+--> input_validator.ads:34:11
+
+ info: postcondition proved
+--> input_validator.ads:35:19
+
+ info: range check proved
+--> input_validator.ads:38:39
+
+ info: range check proved
+--> input_validator.ads:39:33
+
+ info: index check proved
+--> input_validator.ads:41:55
+Success: all checks proved (24 checks).
+Summary logged in /workspace/CSI4539_Lab3_Santiago-Martinez-Barrera/obj/gnatprove/gnatprove.out
+
+EXIT_STATUS=0

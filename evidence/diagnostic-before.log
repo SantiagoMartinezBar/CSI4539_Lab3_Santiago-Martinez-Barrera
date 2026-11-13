@@ -1,0 +1,28 @@
+$ gnatprove -P proof/before/diagnostic.gpr -u proof_copy.adb --mode=prove --level=2 --report=all --counterexamples=on --checks-as-errors=on
+Phase 1 of 3: generation of data representation information ...
+Phase 2 of 3: generation of Global contracts ...
+Phase 3 of 3: flow analysis and proof ...
+Summary logged in /workspace/CSI4539_Lab3_Santiago-Martinez-Barrera/proof/before/obj/gnatprove/gnatprove.out
+ high: array index check might fail
+--> proof_copy.adb:5:13
+    5 |          Data (Size) := 'A';
+      |                ^~~~
+      + e.g. when Size = 101
+      + reason for check: value must be a valid index into the array
+      + possible fix: add precondition (Size in 1 .. 100) to subprogram at proof_copy.ads:3
+      --> proof_copy.ads:3:14
+    3 |       procedure Copy (Size : Positive; Data : out Buffer)
+      |                 ^
+      + provers reached time limit before completing the proof
+
+ info: initialization of "Data" proved
+--> proof_copy.ads:3:37
+
+ info: data dependencies proved
+--> proof_copy.ads:4:11
+
+ info: flow dependencies proved
+--> proof_copy.ads:5:11
+gnatprove: unproved check messages considered as errors
+
+EXIT_STATUS=1

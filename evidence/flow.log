@@ -1,0 +1,31 @@
+$ gnatprove -P validator.gpr -u input_validator.adb --mode=flow --report=all --checks-as-errors=on --warnings=error
+Phase 1 of 3: generation of data representation information ...
+Phase 2 of 3: generation of Global contracts ...
+Phase 3 of 3: analysis of data and information flow ...
+ info: implicit aspect Always_Terminates on "Is_Allowed" has been proved, subprogram will terminate
+--> input_validator.ads:6:13
+
+ info: implicit aspect Always_Terminates on "Meets_Policy" has been proved, subprogram will terminate
+--> input_validator.ads:18:13
+
+ info: initialization of "Result" proved
+--> input_validator.ads:22:42
+
+ info: data dependencies proved
+--> input_validator.ads:23:11
+
+ info: flow dependencies proved
+--> input_validator.ads:24:11
+
+ info: initialization of "Result" proved
+--> input_validator.ads:32:40
+
+ info: data dependencies proved
+--> input_validator.ads:33:11
+
+ info: flow dependencies proved
+--> input_validator.ads:34:11
+Success: all checks proved (8 checks).
+Summary logged in /workspace/CSI4539_Lab3_Santiago-Martinez-Barrera/obj/gnatprove/gnatprove.out
+
+EXIT_STATUS=0

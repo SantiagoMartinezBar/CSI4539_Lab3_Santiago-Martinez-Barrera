@@ -1,0 +1,114 @@
+[
+  {
+    "case": "01-empty",
+    "bytes": 0,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "02-one",
+    "bytes": 1,
+    "ada": "ACCEPT 1",
+    "exit": 0,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "03-name",
+    "bytes": 17,
+    "ada": "ACCEPT 17",
+    "exit": 0,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "04-99",
+    "bytes": 99,
+    "ada": "ACCEPT 99",
+    "exit": 0,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "05-100",
+    "bytes": 100,
+    "ada": "ACCEPT 100",
+    "exit": 0,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "06-101",
+    "bytes": 101,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "07-160",
+    "bytes": 160,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "08-517",
+    "bytes": 517,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "09-format",
+    "bytes": 7,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "10-semicolon",
+    "bytes": 16,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "11-substitution",
+    "bytes": 14,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "12-quote",
+    "bytes": 11,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "13-nul",
+    "bytes": 7,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "14-newline",
+    "bytes": 5,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "15-utf8",
+    "bytes": 5,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  },
+  {
+    "case": "16-space",
+    "bytes": 9,
+    "ada": "REJECT",
+    "exit": 1,
+    "c": "UNRUN: reference missing"
+  }
+]

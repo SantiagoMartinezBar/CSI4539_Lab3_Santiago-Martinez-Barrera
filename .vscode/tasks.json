@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "Je construis le projet", "type": "shell", "command": "make build", "group": "build", "problemMatcher": []},
+    {"label": "Je lance les tests", "type": "shell", "command": "make test", "group": "test", "problemMatcher": []},
+    {"label": "Je vérifie le flux", "type": "shell", "command": "make flow", "problemMatcher": []},
+    {"label": "Je prouve le validateur", "type": "shell", "command": "make prove", "problemMatcher": []}
+  ]
+}

@@ -20,6 +20,8 @@ make report
 
 Je peux installer la chaîne Linux avec `bash scripts/setup_tools.sh`, puis activer `source .tools/activate.sh`. Sur Mac, je privilégie la machine Linux du cours pour la preuve. Je peux consulter et modifier tous les fichiers depuis VS Code.
 
+Pour ma démonstration sur Mac, je peux aussi utiliser Docker Desktop et lancer `bash scripts/mac_demo.sh`. Je suis les étapes de [mon guide Mac](docs/RUN_ON_MAC.md) et je prépare [mon script oral](docs/PRESENTATION.md). Je retrouve ces deux documents dans [leur version Word](docs/PRESENTATION_ET_EXECUTION.docx).
+
 ## Organisation et limites
 
 | Dossier | Ce que j'y conserve |

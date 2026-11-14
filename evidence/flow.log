@@ -26,6 +26,6 @@ Phase 3 of 3: analysis of data and information flow ...
  info: flow dependencies proved
 --> input_validator.ads:34:11
 Success: all checks proved (8 checks).
-Summary logged in /workspace/CSI4539_Lab3_Santiago-Martinez-Barrera/obj/gnatprove/gnatprove.out
+Summary logged in /project/obj/gnatprove/gnatprove.out
 
 EXIT_STATUS=0

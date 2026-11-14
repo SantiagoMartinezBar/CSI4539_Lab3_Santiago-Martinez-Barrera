@@ -71,6 +71,6 @@ Phase 3 of 3: flow analysis and proof ...
  info: index check proved
 --> input_validator.ads:41:55
 Success: all checks proved (24 checks).
-Summary logged in /workspace/CSI4539_Lab3_Santiago-Martinez-Barrera/obj/gnatprove/gnatprove.out
+Summary logged in /project/obj/gnatprove/gnatprove.out
 
 EXIT_STATUS=0
